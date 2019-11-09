@@ -230,7 +230,7 @@ public class SingletonPattern06 {
 
 ### 简单工厂模式（静态工厂模式）
 
-![1573315749830](assets/1573315749830.png)
+![1573316931594](assets/1573316931594.png)
 
 > 相关代码见包 com.lga.pattern.factory 下的代码
 
