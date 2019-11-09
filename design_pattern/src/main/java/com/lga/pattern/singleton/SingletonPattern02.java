@@ -1,4 +1,4 @@
-package com.lga.pattern.singlePattern;
+package com.lga.pattern.singleton;
 
 
 /**
