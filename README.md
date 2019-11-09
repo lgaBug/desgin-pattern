@@ -227,9 +227,12 @@ public class SingletonPattern06 {
 
    
 
-   
 
-抽象工厂模式
+### 简单工厂模式（静态工厂模式）
+
+![1573315749830](assets/1573315749830.png)
+
+> 相关代码见包 com.lga.pattern.factory 下的代码
 
 原型模式
 
