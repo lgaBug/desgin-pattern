@@ -256,7 +256,31 @@ public class SingletonPattern06 {
 > - 从设计层面看，抽象工厂就是对简单工厂模式的改进（进一步的抽象）
 > - 将工厂抽象成两层，AbsFactory（抽象工厂）和具体实现的工厂子类。程序员可以根据创建对象类型使用对应的工厂子类，这样将单个工厂变成了工厂簇，更利于代码的维护和扩展
 
-原型模式
+### 原型模式
+
+> 对象的克隆。
+>
+> 浅拷贝（基本数据类型拷贝，但是引用数据类型拷贝的是引用对象地址），深拷贝（基本数据类型和引用数据类型都是拷贝数据值）
+>
+> - 实现Cloneable接口，重写clone方法
+> - 序列化实现克隆
+>
+> 代码参考：spring中的bean的获取，getBean源码，可以设置scope.默认是singleton单例。可以设置为prototype
+
+```java
+//序列化实现深拷贝
+public static Object deepClone(Object targetObj) throws IOException, ClassNotFoundException {
+        Object object = null;
+        //创建流对象，将tragetObj以流的形式输出
+        ByteArrayOutputStream bos = new ByteArrayOutputStream();
+        new ObjectOutputStream(bos).writeObject(targetObj);
+        //反序列化,将对象输入进来
+        object = new ObjectInputStream(new ByteArrayInputStream(bos.toByteArray())).readObject();
+        return object;
+    }
+```
+
+
 
 建造者模式
 
