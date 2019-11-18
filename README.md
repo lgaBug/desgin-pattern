@@ -314,9 +314,25 @@ public static Object deepClone(Object targetObj) throws IOException, ClassNotFou
 
 
 
-桥接模式
+### 桥接模式
 
-**装饰模式**
+![1573878855415](assets/1573878855415.png)
+
+jdbc源码分析
+
+![1573881114691](assets/1573881114691.png)
+
+### **装饰模式**
+
+> 动态的将新功能附加到对象上。在对象功能扩展方面，它比继承更具有弹性，装饰者模式也体现了开闭原则。
+>
+> 源码分析：FilterInputStream就是一个装饰者
+
+![image-20191118230452177](image-20191118230452177.png)
+
+![image-20191118230410755](image-20191118230410755.png)
+
+![image-20191118224937411](image-20191118224937411.png)
 
 组合模式
 
