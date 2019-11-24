@@ -338,17 +338,37 @@ jdbc源码分析
 
 > 源码hashMap
 
-![image-20191120233231105](README.assets/image-20191120233231105.png)
+![image-20191120233231105](README.assets/image-20191120233231105.png)![image-20191121212157671](README.assets/image-20191121212157671.png)
 
 **![image-20191120233454849](README.assets/image-20191120233454849.png)**
 
 
 
-外观模式
+### 外观模式
 
-享元模式
+![image-20191121213146610](README.assets/image-20191121213146610.png)
 
-**代理模式**
+![image-20191121213404873](README.assets/image-20191121213404873.png)
+
+### 享元模式
+
+> 源码分析Integer中的valueOf方法
+
+![image-20191125001639388](README.assets/image-20191125001639388.png)
+
+  ![image-20191124150944217](README.assets/image-20191124150944217.png)
+
+
+
+![image-20191124151612555](README.assets/image-20191124151612555.png)
+
+![image-20191124151929393](README.assets/image-20191124151929393.png)
+
+![image-20191124153434200](README.assets/image-20191124153434200.png)
+
+![image-20191125002004522](README.assets/image-20191125002004522.png)
+
+**代理模式** 
 
 ## 行为型模式
 
