@@ -420,7 +420,15 @@ jdbc源码分析
 
 ![image-20191202233235602](README.assets/image-20191202233235602.png)
 
-中介者模式
+### 中介者模式
+
+![image-20191203210122646](README.assets/image-20191203210122646.png)
+
+![image-20191203205908499](README.assets/image-20191203205908499.png)
+
+![](README.assets/image-20191203211051080.png)  
+
+![image-20191203211635184](README.assets/image-20191203211635184.png)
 
 备忘录模式
 
