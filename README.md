@@ -430,7 +430,11 @@ jdbc源码分析
 
 ![image-20191203211635184](README.assets/image-20191203211635184.png)
 
-备忘录模式
+### 备忘录模式
+
+![image-20191204224520945](README.assets/image-20191204224520945.png)
+
+![image-20191204230832961](README.assets/image-20191204230832961.png)
 
 解释器模式（Interpreter模式）
 
